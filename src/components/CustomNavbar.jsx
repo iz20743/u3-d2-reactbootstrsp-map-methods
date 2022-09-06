@@ -5,7 +5,7 @@ import{Container, Navbar, NavDropdown, Nav,} from 'react-bootstrap';
 class CustomNavbar extends Component{
     render(){
         return(
-            <div>
+            <div className="justi">
                 <Navbar bg="light" expand="lg">
                     <Container fluid>
                         <Navbar.Brand href="#">Navbar scroll</Navbar.Brand>
