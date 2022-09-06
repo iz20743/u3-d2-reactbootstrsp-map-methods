@@ -11,6 +11,8 @@ class BookCards extends Component{
                 <div>
                     <Row>
                         <Col sm={6} md={3} lg={4}>
+                            {arrayOfBooks.map((books) =>(
+                                // console.log(arrayOfBooks)
                             <Card  style={{ width: '18rem'}}>
                                 <Card.Img variant="top" src= "http://placekitten.com/200/300" />
                                 <Card.Body>
@@ -22,6 +24,8 @@ class BookCards extends Component{
                                     <Button variant="primary">BUY</Button>
                                 </Card.Body>
                             </Card>
+                            ))}
+                            
                         </Col>
                     </Row>
             </div>

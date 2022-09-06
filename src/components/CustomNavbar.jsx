@@ -30,9 +30,6 @@ class CustomNavbar extends Component{
                                         SIFI
                                     </NavDropdown.Item>
                                 </NavDropdown>
-                                <Nav.Link href="#" disabled>
-                                Link
-                                </Nav.Link>
                             </Nav>
                         </Navbar.Collapse>
                     </Container>
